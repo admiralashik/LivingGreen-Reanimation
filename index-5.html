@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Green Blog</title>
+		<meta charset="utf-8">
+		
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/FAQ.css">
+	</head>
+	<body id="top">
+<!--==============================header=================================-->
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<h1>
+						<a href="index.html">
+							<img src="images/logo.png" alt="Your Happy Family">
+						</a>
+					</h1>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="menu_block ">
+				<div class="container_12">
+					<div class="grid_12">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li ><a href="index.html">Home</a></li>
+								<li ><a href="index-1.html">Tutorials</a></li>
+								<li ><a href="index-2.html">Products</a></li>
+								<li><a href="index-3.html">Blog</a></li>
+                                <li><a href="index-4.html">Contacts</a></li>
+                                <li class="current"><a href="index-5.html">FAQ</a></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</header>
+<!--==============================Content=================================-->
+		<div class="content"><div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_12">
+					<h2>Frequently Asked Questions</h2>
+				</div>
+                    <div id="owl">
+                        <div class="item">
+                            <button class="collapsible">Why Live Green?</button>
+                            <div class="ct">
+                                <p>For a sustainable future for the upcoming generations to come it's a must
+                                    for living a greener life. Not only it saves our environment but also enhances
+                                    our chances of living a better and healthier life.
+                                </p>
+                            </div>
+                            <button class="collapsible">Is it possible to go 100% Green?</button>
+                            <div class="ct">
+                                <p> Further studies are still being conducted inorder to achieve 100% green life. So it might be
+                                    possible in the near future we will be able to live a full green life.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">Is going green feasible?</button>
+                            <div class="ct">
+                                <p>Yes, absolutely going green in our day to day lives can be feasible and also much more ecnonomical
+                                    as we have never thought of.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">Does it make economical sense?</button>
+                            <div class="ct">
+                                <p>Yes, it does indeed make our lives economical if we are to adopt
+                                    the green solution initiatives.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">How reliable are green products?</button>
+                            <div class="ct">
+                                <p> Green products are designed to be reliable in our everyday lives 
+                                    so that we gain maximum benefits out of our lives.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">Which countries are best at using the most green products?</button>
+                            <div class="ct">
+                                <p> Currently Finland ranks the first then comes Iceland, Sweden,
+                                    Denmark,Slovenia,Spain,Portugal,Estonia 
+                                    respectively.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">Is this website successful?</button>
+                            <div class="ct">
+                                <p> Yes, after painstaking in developing this website of ours we are happy to say
+                                    it is indeed successful.
+
+                                </p>
+                            </div>
+                            <button class="collapsible">How do I go about contacting for more information?</button>
+                            <div class="ct">
+                                <p> You can subscribe to our mailing list to get latest updates and info. Also you can visit one of our centres 
+                                    and fill out the contact form to reach us. You can also connect through our facebook page.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+			</div>
+        </div>
+		
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12 ">
+					<div class="copy">
+						Living Green (C) <span id="copyright-year"></span> &nbsp;|&nbsp; <a href="#">Privacy Policy</a> | Website Designed by <a href="#" rel="nofollow">LivingGreen Company</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+        </footer>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+                
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+                });
+            }
+        </script>
+	</body>
+</html>
